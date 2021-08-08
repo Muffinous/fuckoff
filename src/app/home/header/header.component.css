@@ -115,11 +115,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a, .nav-menu a:focus {
     display: flex;
     align-items: center;
-    color: #a8a9b4;
-    padding: 12px 15px;
+    color: lightblue;
+    padding: 5px 10px; /* before it was 12px 15px */
     margin-bottom: 8px;
+    margin-right: 5px;
     transition: 0.3s;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .nav-menu a i, .nav-menu a:focus i {
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-    color: #149ddd;
+    color: lightblue;
 }
 
 /* Mobile Navigation */
