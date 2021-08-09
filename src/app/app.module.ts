@@ -9,6 +9,9 @@ import { AboutComponent } from './home/about/about.component';
 import { HeaderComponent } from './home/header/header.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { ContactComponent } from './home/contact/contact.component';
+import { ServicesComponent } from './home/services/services.component';
+import { DividerComponent } from './divider/divider.component';
+import { ResumeComponent } from './home/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ContactComponent } from './home/contact/contact.component';
     HomeComponent,
     HeaderComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    ServicesComponent,
+    DividerComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
