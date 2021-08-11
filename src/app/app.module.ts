@@ -12,6 +12,7 @@ import { ContactComponent } from './home/contact/contact.component';
 import { ServicesComponent } from './home/services/services.component';
 import { DividerComponent } from './divider/divider.component';
 import { ResumeComponent } from './home/resume/resume.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,12 @@ import { ResumeComponent } from './home/resume/resume.component';
     ContactComponent,
     ServicesComponent,
     DividerComponent,
-    ResumeComponent
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
