@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faAngular, faCss3, faCuttlefish, faDocker, faGithub, faHtml5, faJava, faJs, faNodeJs, faPython, faUnity } from '@fortawesome/free-brands-svg-icons';
+import { faAndroid, faAngular, faCss3, faCuttlefish, faDocker, faGithub, faHtml5, faJava, faJs, faNodeJs, faPython, faUnity } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faSquareFull, faVideoSlash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -20,6 +20,7 @@ export class ServicesComponent implements OnInit {
   faJS = faJs;
   faUnity = faUnity;
   faSQL = faDatabase;
+  faAndroid = faAndroid;
   
   constructor( ) {
    }

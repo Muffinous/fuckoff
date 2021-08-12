@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i #container{
     color: lightblue;
 }
 
@@ -167,3 +167,25 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active #header {
     left: 0;
 } 
+
+#container {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+}
+
+#container a {
+    display: flex;
+    align-items: center;
+    color: lightblue;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+#container li {
+    list-style: none;
+}

@@ -6,9 +6,9 @@ import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/co
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  open: Boolean = false;
-  @ViewChild('namebutton', { read: ElementRef, static: false })
-  namebutton!: ElementRef;
+  open: Boolean = true;
+  @ViewChild('navbutton', { read: ElementRef, static: false })
+  navbutton!: ElementRef;
 
   constructor(private _rd: Renderer2) {   
   }
@@ -16,21 +16,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
    
-  actionButton() {
-    console.log("eojf")
-    this.namebutton.nativeElement.classList.add('bi-x')
-    setTimeout(() => {
-      this.namebutton.nativeElement.classList.remove('bi-list')
-    }, 1000);
-  }
-
-   changeIcon() {    
+  changeIcon() {    
      console.log(this.open); 
-  //   console.log(this.open);
-  //   console.log("click");
-  //   this.open = !open;
-  //   console.log(this.open);
-   }
+     this.open = !open;
+     console.log(this.open);
+  }
 
   // on('click', '.mobile-nav-toggle', function(e) {
   //   select('body').classList.toggle('mobile-nav-active')

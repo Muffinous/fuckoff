@@ -37,6 +37,14 @@
     margin-right: 0;
   }
   
+  .portfolio-wrap {
+    display: block;
+    min-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
   .portfolio .portfolio-wrap {
     transition: 0.3s;
     position: relative;
@@ -109,7 +117,15 @@
   }
   
   .portfolio-details .portfolio-details-slider img {
-    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    vertical-align: middle;
+    left: 50%;
+    transform: translate(-50%);
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination {
