@@ -4,7 +4,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    color: white; 
 }
   
 a {
@@ -110,7 +110,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #272635; /*#173b6c; */
+    color: #272635; /*#272635; */
 }
   
 .section-title h2::after {
