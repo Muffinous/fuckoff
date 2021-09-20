@@ -4,7 +4,6 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: white; 
 }
   
 a {
@@ -97,7 +96,7 @@ section {
 }
   
 .section-bg {
-    background: #f5f8fd;
+    background-image: linear-gradient(10deg, rgba(70, 70, 70, 0.664), rgba(66, 66, 66, 0.767)), url("../../assets/img/bg/annie-spratt-6a3nqQ1YwBw-unsplash.jpg");
 }
   
 .section-title {
@@ -105,12 +104,12 @@ section {
 }
   
 .section-title h2 {
-    font-size: 32px;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #272635; /*#272635; */
+    color: lightblue; /* #272635; #272635; */
 }
   
 .section-title h2::after {

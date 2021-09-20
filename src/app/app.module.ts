@@ -13,6 +13,7 @@ import { ServicesComponent } from './home/services/services.component';
 import { DividerComponent } from './divider/divider.component';
 import { ResumeComponent } from './home/resume/resume.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CompanyComponent } from './home/company/company.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ServicesComponent,
     DividerComponent,
     ResumeComponent,
+    CompanyComponent,
   ],
   imports: [
     BrowserModule,

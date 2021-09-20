@@ -1,22 +1,23 @@
 @import "../home.component.css";
 
 .about {
-  background: url("../../../assets/img/about-bg.jpg") top center;
+  background-color: #515152;
 }
 
-.about .content h3 {
+.content h3 {
   font-weight: 700;
   font-size: 26px;
   color:rgb(161, 214, 245);
 }
 
-.about .content ul {
+.content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
-  margin-bottom: 20px;
+.content ul li {
+  color: rgb(211, 211, 211);
+  margin-top: 5px;
   display: flex;
   align-items: center;
 }
@@ -25,13 +26,13 @@
   margin-right: 10px;
 }
 
-.about .content ul i {
+.content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: lightblue;
   line-height: 0;
 }
 
-.about .content p:last-child {
+.content p:last-child {
   margin-bottom: 0;
 }
