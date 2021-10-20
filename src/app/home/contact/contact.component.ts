@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  processForm() {
+    console.log("asas");
+    alert('asad');
+  }
 }

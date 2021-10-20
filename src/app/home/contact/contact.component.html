@@ -1,7 +1,7 @@
 <app-header></app-header>
 <main id="main">
 
-<section id="contact" class="contact section-bg">
+<section id="contact" name="contact" class="contact section-bg">
     <div class="container">
 
         <div class="section-title">
@@ -14,7 +14,7 @@
                 <!-- <h1>&bull; Keep in Touch &bull;</h1>
                 <div class="underline">
                 </div> -->
-                <form action="#" method="post" id="contact_form">
+                <form (ngSubmit)="processForm()" id="contact_form" ngForm>
                   <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="My name is" name="name" id="name_input" required>
